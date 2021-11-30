@@ -1,5 +1,30 @@
 .App {
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  display: grid;
+}
+
+button{
+  border: 1px solid black;
+  border-radius: .25rem;
+  font-size: 1.5rem;
+  margin: .5rem;
+  font-weight: bold;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+  color: white;
+}
+
+.yellow{
+  background-color: yellow;
 }
 
 .App-logo {
